@@ -4,7 +4,7 @@ Instructor - Robert Haaf
 
 Project- Dynamic Team page 
 
-Project -practice to use Javascript in web by creating different team bio showing 1styles.
+Project -practice to use Javascript in web by creating different team bio showing styles.
 
 Step -
 
