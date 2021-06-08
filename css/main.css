@@ -1,0 +1,64 @@
+* {
+  font-family: 'Staatliches', cursive;body
+}
+body{
+  background: purple;
+  text-align: center;
+  font-size: 20px;
+  margin: 0px;
+  padding: 0px;
+}
+.imagestyle{
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+.image{
+  width: 120px;
+  height: 120px;
+  background: #fa1e34;
+  margin: 2px 50px;
+  border-radius: 50%;
+  border: 3px solid black;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  box-shadow: rgb(184, 2 , 2)
+}
+.image:hover{
+  border: 3px solid #ff91a4;
+}
+img{
+  width: 116px;
+  height: 116px;
+  border-radius: 50%;
+}
+.information{
+  width: 1100px;
+  height: 350px;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  background: #ffffff;
+  margin: 0 auto;
+  margin-top: 50px;
+  box-shadow: 0px 0px 50px rgb(145, 1, 1);
+}
+
+.name{
+  margin-top: 80px;
+  padding: 0px 15px;
+  text-align: left;
+  font-size: 50px;
+  line-height: 20px;
+}
+.status{
+  padding: 0px 20px;
+  text-align: left;
+  line-height: 20px;
+  margin: 0;
+}
+.about{
+  height: 240px;
+  padding: 0px 20px;
+}

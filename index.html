@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link rel="stylesheet" href="css/main.css">
+  <link rel="stylesheet" href="css/reset.css">
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Staatliches&display=swap" rel="stylesheet">
+  <title>Dynamic Team Page</title>
+</head>
+<body>
+  <h1 class="hidden">Our Team</h1>
+  <div class="imagestyle">
+    <div class="image" onclick="fetch_info(0)"><img src="images/1.jpg"></div>
+    <div class="image" onclick="fetch_info(1)"><img src="images/2.jpg"></div>
+    <div class="image" onclick="fetch_info(2)"><img src="images/3.jpg"></div>
+  </div>
+
+  <div class="information">
+
+
+      <div class="info" id="profile">
+
+        <h1 class="name" id="name">Parminder Kumar</h1>
+        <h3 class="status" id="status">Accounts Head</h3>
+        <p class="about" id="about">We are Interactive Media Designers at Fanshawe college.<br>
+        Currently in second semester working to bring editing techniques to our College.<br>Its a pleasure working with our Web and Design Expert Profesor Robert Haaf.  </p>
+      </div>
+
+    </div>
+  </div>
++
+ <script>
+   function fetch_info(i){
+     let profile=["1.jpg","2.jpg","3.jpg"]
+    let name = ["Parminder Kumar","Jason","Cavin"]
+    let status = ["Account Head","Human Resource","Senior Develpor"]
+    document.getElementById("profile").src = profile[i];
+    document.getElementById("name").innerHTML = name[i];
+    document.getElementById("status").innerHTML = status[i];
+}
+ </script>
+</body>
+</html>
